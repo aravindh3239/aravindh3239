@@ -911,7 +911,6 @@ body{
     .p1-gard-1{
         width: 70%;
         height: 20vh;
-        background-color: aqua;
         display: flex;
         align-items: center;
     }
@@ -1186,7 +1185,8 @@ body{
         background-size: 200%;
     }
     .p1-gard-1{
-        width: 100%;
+        width: 80%;
+        background-color: aqua;
         display: flex;
         align-items: start;
         justify-content: end;
