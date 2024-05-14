@@ -902,7 +902,6 @@ body{
     }
     .parent-1{
         height: 40vh;
-        background-color: aqua;
         background-repeat: no-repeat;
         display: flex;
         background-size: 130%;
@@ -910,14 +909,15 @@ body{
         font-size: 25px;
     }
     .p1-gard-1{
-        width: 70%;background-color: aqua;
+        width: 70%;
         height: 20vh;
+        background-color: aqua;
         display: flex;
         align-items: center;
     }
     .p1-gard-2{
         width: 90%;
-        height: 10vh;background-color: aqua;
+        height: 10vh;
         display: flex;
         align-items: center;
     }
