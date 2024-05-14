@@ -1141,7 +1141,7 @@ body{
 }
 @media (max-width:600px){
     .nav-infoss{
-        height: 1vh;
+        height: 2vh;
     }
     .nav-words-1{
         font-size: 15px;
@@ -1166,20 +1166,26 @@ body{
     }
     .parent-1{
         display: flex;
-        align-items: center;
-        background-position-x:-200px;
+        /* align-items: center; */
+        background-position-x:-250px;
         background-size: 200%;
     }
     .p1-gard-1{
-        width: 20%;
-        height: 5%;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        height: 100%;
         font-size: 10px;
     }
     .p1g1-child{
         font-size: 30px;
     }
     .p1-gard-2{
+        height: 70%;
         font-size: 20px;
+        display: flex;
+        align-items: start;
     }
     .parent-2{
         height: 15vh;
@@ -1201,19 +1207,23 @@ body{
         display: none;
     }
     .parent-3{
-        height: 40vh;
+        height: 80vh;
     }
     .p3-gard-1{
         font-size: 10px;
     }
     .p3-gard-2{
-        height: 70%;
+        height: 100%;
+        width: 100%;
         gap: 10px;
+        display: grid;
     }
     .p3-img1{
+        width: 350px;
         height: 100%;
     }
     .p3-img2{
+        width: 350px;
         height: 100%;
     }
     .p3-img3{
@@ -1223,16 +1233,24 @@ body{
         display: none;
     }
     .parent-4{
-        height:95vh;
+        width: 100%;
+        height:80vh;
         display: grid;
     }
     .p4-gard-1{
-        width: 100%;
+        width: 350px;
+        height: 100%;
         font-size: 15px;
-        background-size: cover;
+    }
+    .p4-g1-child-1{
+        height: 05vh;
+    }
+    .p4-g1-child-2{
+        height: 05vh;
     }
     .p4-gard-2{
-        width: 100%;
+        width: 350px;
+        height: 100%;
         font-size: 15px;
     }
     .parent-5{
@@ -1278,12 +1296,13 @@ body{
     }
     .Total-3p{
         width: 100%;
-        height: 70vh;
+        height: 60vh;
         display: flex;
         justify-content: left;
     }
     .parent-9{
-        height: 70%;
+        width: 100%;
+        height: 90%;
     }
     .parent-91{
         display: none;
@@ -1349,9 +1368,22 @@ body{
     .p12-gard-4{
         display: none;
     }
-    .p12-gard-4{
-        height: 7vh;
-    }.parent-13{
+    .p12-gard-3{
+        font-size: 20px;
+        height: 15%;
+        background-color: aqua;
+    }
+    .p12-gard-2{
+        font-size: 20px;
+        height: 15%;
+        background-color: blueviolet;
+    }
+    .p12-gard-1{
+        font-size: 10px;
+        height: 15%;
+        background-color: blue;
+    }
+    .parent-13{
         width: 100%;
         height: 20vh;
         display: flex;
