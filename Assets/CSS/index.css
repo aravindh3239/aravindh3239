@@ -1186,7 +1186,6 @@ body{
     }
     .p1-gard-1{
         width: 80%;
-        background-color: aqua;
         display: flex;
         align-items: start;
         justify-content: end;
