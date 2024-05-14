@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: "Abel", sans-serif;
+}
 .nav-infoss{
     width: 100%;
     height: 20px;
@@ -44,7 +47,7 @@
     align-items: end;
 }
 .nav-menu{
-    width: 50%;
+    width: 60%;
     height: 60%;
     display: flex;
     justify-content: space-around;
